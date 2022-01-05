@@ -1,0 +1,163 @@
+:root {
+  --zero: white;
+
+  --blue1: #fff;
+  --blue2: #f1fef2;
+  --blue3: #e2fce4;
+  --blue4: #d2fad6;
+  --blue5: #c3f9c8;
+  --blue6: #b4f7ba;
+  --blue7: #a4f6ac;
+  --blue8: #95f49d;
+  --blue9: #85f38f;
+  --blue10: #76f181;
+  --blue11: #67ef73;
+  --blue12: #57ee65;
+  --blue13: #16da28;
+  --blue14: #15ca25;
+  --blue15: #13bb22;
+  --blue16: #12ac1f;
+  --blue17: #109c1d;
+
+  --font1: 'Abril Fatface', cursive;
+  --font2: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: var(--blue2);
+  margin: 5px;
+  /*border: 1px solid black;*/
+  padding: 5px;
+  font-family: var(--font2);
+}
+
+.marca {
+  position: fixed;
+  top: 0;
+  width: 50%;
+  background-color: var(--blue2);
+  padding: 0px 20px 5px;
+  border-left: 7px solid var(--blue17);
+}
+
+.cabecalho, h1, h2{
+  font-family: var(--font1);
+  display: inline;
+  width: auto;
+  color: var(--blue17);
+  letter-spacing: 1px;
+}
+h1, h2 {
+  letter-spacing: 2px;
+}
+
+.esquerda {
+  float: left;
+}
+.direita {
+  float: right;
+}
+.h {
+  background-color: var(--blue17);
+  width: 30px;
+  height: 4px;
+  margin: 7px;
+}
+
+.menu {
+  margin-top: 100px;
+  clear: both;
+}
+
+
+
+ul {
+  background-color: var(--blue3);
+  list-style-type: none;
+  width: 50%;
+  padding: 0;
+}
+li a {
+  color: #000;
+  padding: 8px 8px;
+  text-decoration: none;
+}
+div li a {
+  display: block;
+}
+div li a:hover {
+  background-color: var(--blue17);
+  color: white;
+}
+
+.art ,.formulario {
+  background-color: var(--blue1);
+  box-sizing: border-box;
+  margin: 5px 0px;
+ /* border: 1px solid black; */
+  border-radius: 10px;
+  padding: 20px 10px;
+  width: 100%;
+}
+
+.formulario {
+  background-color: var(--blue2);
+}
+
+.art img {
+  box-sizing: border-box;
+  /*border: 1px solid black;*/
+  width: 100%;
+  /*padding: 5px;*/
+}
+
+label {
+  display: block;
+  margin: 0px;
+  /*border: 1px solid black;*/
+  padding: 15px 5px 0px 5px;
+}
+
+input[type=text], input[type=email] {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 5px 0;
+  border: none;
+  border-bottom: 1px solid var(--blue10);
+  outline: none;
+  padding: 15px 5px 5px 5px;
+}
+
+input[type=submit] {
+  width: 50%;
+  background-color: var(--blue10);
+  color: white;
+  margin: 5px 0;
+  padding: 15px;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+input[type=submit]:hover {
+  background-color: var(--blue8);
+  color: black;
+  outline: none;
+}
+
+textarea {
+  width: 100%;
+  min-height: 100px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid var(--blue10);
+
+}
+
+footer {
+  margin-top: 15px; 
+  background-color: var(--blue10);
+  padding: 15px;
+}

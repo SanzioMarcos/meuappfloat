@@ -1,0 +1,105 @@
+{% extends "layout.njk" %}
+{% block pg %}
+
+
+    <div id="inicio" class="cabecalho">
+
+        <h1 class="esquerda marca">Reg desing</h1>
+<!--
+        <h1 onclick="myfunction()" class="direita">
+            <a href="#">
+                <div class="h"></div>
+                <div class="h"></div>
+                <div class="h"></div>
+            </a>
+        </h1>
+-->    
+        <nav class="menu">
+            <div>
+                <ul>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#artigos">Artigos</a></li>
+                    <li><a href="#sobremin">Sobre mim</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </div>
+
+
+    <h2 id="projetos">Projetos</h2>
+    <div class="art">
+        <h3>Winderson</h3>
+        <p>Este é o projeto do design de interior da casa do Winderson Nunes.</p>
+        <img src="images/salaWind.jpg" alt="">
+        <h3>Neymar</h3>
+        <p>Este é o projeto do design de interior da casa do Neymar.</p>
+        <img src="images/salaNey.jpg" alt="">
+        <h3>Anita</h3>
+        <p>Este é o projeto do design de interior da casa da Anita.</p>
+        <img src="images/salaAni.jpg" alt="">
+    </div>
+    
+    <h2 id="artigos">Artigos</h2>
+    <div class="art">
+        <h3>O que é design de interiores?</h3>
+        <p>O design de interiores é uma técnica cenográfica e visual para a composição e decoração de ambientes internos. Consiste na arte de planejar e organizar espaços, escolhendo e/ou combinando os diversos elementos de um ambiente, estabelecendo relações estéticas e funcionais, em relação ao que se pretende produzir.</p>
+    </div>
+
+    <div class="art">
+        <h3>Por que minha casa presisa?</h3>
+        <p>Nós passamos grande parte de nossas vidas dentro de casa, certo? Por isso é muito importante criar um espaço confortável e esse é exatamente um dos objetivos do design de interiores: criar espaços alinhados aos seus gostos pessoais e adequados para as suas necessidades, sempre buscando a melhor relação do espaço com os moradores.</p>
+        
+    </div>
+    
+
+    <h2 id="sobremin">Sobre mim</h2>
+    <div class="art">
+        <div>
+            <img src="images/regiane.jpeg" alt="">
+            <h3>Meu nome é Regiane.</h3>
+            <p>Acredido que sofisticação é o caminho mais nobre da sutileza, numa busca charmosa pela tal originalidade que descobre, por exemplo, que um móvel posto ali, num canto da sala pode, quem sabe, ter alma e coração.</p>
+        </div>
+    </div>
+  
+    <h2 id="servicos">Serviços</h2>
+    <div class="art">
+        <h3>Desenho de quarto.</h3>
+        <p>Deixar o seu quarto confortável.</p>
+        <pre>preço</pre>
+        <p>R$ 300,00</p>
+        <hr>
+
+        <h3>Desenho de cozinha.</h3>
+        <p>Transformar sua cozinha num local funcional e seguro de usar.</p>
+        <pre>preço</pre>
+        <p>R$ 700,00</p>
+        <hr>
+        <h3>Desenho de salas.</h3>
+        <p>Criar um ambiente de relaxante para você maratonar seus filmes preferidos.</p>
+        <pre>preço</pre>
+        <p>R$ 500,00</p>
+    </div>
+
+    <h2 id="contato">Contato:</h2>
+    <div class="formulario">
+        <form>
+            <label for="x">Nome:</label>
+            <input type="text" id="x" name="rt1">
+            <label for="y">e-mail:</label>
+            <input type="email" id="y" name="rt2">            
+            <pre>Escreva sua mensagem:</pre>
+            <textarea name="mensagem"></textarea>
+            <input type="submit" value="Enviar"></input>
+        </form>
+    </div>
+
+    <footer>
+        <i class="fa fa-facebook-official w3-hover-opacity"></i>
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+        <i class="fa fa-twitter w3-hover-opacity"></i>
+        <p>Powered by Sanzio</a></p>
+    </footer>
+
+{% endblock %}
